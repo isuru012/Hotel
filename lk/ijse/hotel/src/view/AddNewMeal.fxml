@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ancrSeven" prefHeight="524.0" prefWidth="753.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddNewMealController">
+   <children>
+      <ImageView fitHeight="551.0" fitWidth="785.0" pickOnBounds="true" preserveRatio="true">
+
+         <image>
+            <Image url="@../assests/Desktop6.png" />
+         </image></ImageView>
+      <ImageView fitHeight="169.0" fitWidth="433.0" layoutX="174.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/Blue.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="btnHome" layoutX="8.0" layoutY="8.0" onAction="#homeOnAction" prefHeight="40.0" prefWidth="60.0">
+         <graphic>
+            <ImageView fitHeight="39.0" fitWidth="52.0">
+               <Image url="@../assests/Group 58.png" />
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <TextField editable="false" layoutX="77.0" layoutY="224.0" prefHeight="35.0" prefWidth="110.0" style="-fx-text-fill: #FFFFFF; -fx-background-color: #000000;" text="Meal Type">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <TextField editable="false" layoutX="440.0" layoutY="224.0" prefHeight="35.0" prefWidth="110.0" style="-fx-text-fill: #FFFFFF; -fx-background-color: #000000;" text="Unit Price">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <TextField editable="false" layoutX="261.0" layoutY="333.0" prefHeight="35.0" prefWidth="110.0" style="-fx-text-fill: #FFFFFF; -fx-background-color: #000000;" text="Details">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <JFXComboBox layoutX="201.0" layoutY="224.0" prefHeight="35.0" prefWidth="158.0" style="-fx-background-color: #FFFFFF;" />
+      <JFXComboBox layoutX="566.0" layoutY="224.0" prefHeight="35.0" prefWidth="158.0" style="-fx-background-color: #FFFFFF;" />
+      <JFXComboBox layoutX="392.0" layoutY="333.0" prefHeight="35.0" prefWidth="158.0" style="-fx-background-color: #FFFFFF;" />
+      <JFXButton layoutX="678.0" layoutY="498.0" onAction="#backOnAction" prefHeight="40.0" prefWidth="92.0" style="-fx-background-color: #6FBEEB;" text="Back">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="464.0" layoutY="498.0" onAction="#addMealOnAction" prefHeight="45.0" prefWidth="133.0" style="-fx-background-color: #4E91C4;" text="Add Meal">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

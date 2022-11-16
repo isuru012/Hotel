@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ancrEighteen" prefHeight="524.0" prefWidth="753.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OldReservationController">
+   <children>
+      <ImageView fitHeight="551.0" fitWidth="785.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/Desktop16.png" />
+         </image></ImageView>
+      <ImageView fitHeight="169.0" fitWidth="379.0" layoutX="198.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/Blue.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="283.0" fitWidth="702.0" layoutX="44.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/Group25.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="btnHome" layoutX="8.0" layoutY="8.0" onAction="#homeOnAction" prefHeight="40.0" prefWidth="60.0">
+         <graphic>
+            <ImageView fitHeight="39.0" fitWidth="52.0">
+               <Image url="@../assests/Group 58.png" />
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="678.0" layoutY="498.0" onAction="#backOnAction" prefHeight="40.0" prefWidth="92.0" style="-fx-background-color: #6FBEEB;" text="Back">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="642.0" layoutY="224.0" onAction="#delete1OnAction" prefHeight="49.0" prefWidth="80.0" style="-fx-background-color: #D43939;" text="Delete">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="642.0" layoutY="301.0" onAction="#delete2OnAction" prefHeight="49.0" prefWidth="80.0" style="-fx-background-color: #D43939;" text="Delete">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="642.0" layoutY="377.0" onAction="#delete3OnAction" prefHeight="49.0" prefWidth="80.0" style="-fx-background-color: #D43939;" text="Delete">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

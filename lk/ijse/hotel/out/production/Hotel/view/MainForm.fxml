@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ancrOne" prefHeight="524.0" prefWidth="753.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainFormController">
+   <children>
+      <ImageView fitHeight="551.0" fitWidth="785.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/Desktop1.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="btnRecep" buttonType="RAISED" layoutY="431.0" onAction="#loginRecepOnAction" prefHeight="34.0" prefWidth="275.0" style="-fx-background-color: #126FA4;" text="Login as a receptionist" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></JFXButton>
+      <ImageView fitHeight="225.0" fitWidth="470.0" layoutX="144.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/Untitled design.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="btnAdmin" buttonType="RAISED" layoutX="489.0" layoutY="430.0" onAction="#loginAdminOnAction" prefHeight="38.0" prefWidth="286.0" style="-fx-background-color: #126FA4;" text="Login as an administrator" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></JFXButton>
+      <ImageView fitHeight="23.0" fitWidth="23.0" layoutX="14.0" layoutY="437.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/Group 1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="36.0" layoutX="496.0" layoutY="434.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/Group 2.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

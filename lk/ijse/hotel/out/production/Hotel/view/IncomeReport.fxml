@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ancrEight" prefHeight="524.0" prefWidth="753.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.IncomeReportController">
+   <children>
+      <ImageView fitHeight="551.0" fitWidth="785.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/Desktop11.png" />
+         </image></ImageView>
+      <JFXButton fx:id="btnHome" layoutX="8.0" layoutY="8.0" onAction="#homeOnAction" prefHeight="40.0" prefWidth="60.0">
+         <graphic>
+            <ImageView fitHeight="39.0" fitWidth="52.0">
+               <Image url="@../assests/Group 58.png" />
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <TextField alignment="CENTER" editable="false" layoutX="56.0" layoutY="224.0" prefHeight="35.0" prefWidth="110.0" style="-fx-text-fill: #FFFFFF; -fx-background-color: #000000;" text="Annual">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" editable="false" layoutX="431.0" layoutY="224.0" prefHeight="35.0" prefWidth="110.0" style="-fx-text-fill: #FFFFFF; -fx-background-color: #000000;" text="Month">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <JFXComboBox layoutX="180.0" layoutY="224.0" prefHeight="35.0" prefWidth="158.0" style="-fx-background-color: #FFFFFF;" />
+      <JFXComboBox layoutX="557.0" layoutY="224.0" prefHeight="35.0" prefWidth="158.0" style="-fx-background-color: #FFFFFF;" />
+      <ImageView fitHeight="163.0" fitWidth="413.0" layoutX="195.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/Blue.png" />
+         </image>
+      </ImageView>
+      <JFXButton buttonType="RAISED" layoutX="329.0" layoutY="319.0" onAction="#annualOnAction" prefHeight="35.0" prefWidth="179.0" style="-fx-background-color: #4E91C4;" text="Get Annual Report">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="536.0" layoutY="319.0" onAction="#monthOnAction" prefHeight="35.0" prefWidth="179.0" style="-fx-background-color: #4E91C4;" text="Get Month Report">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></JFXButton>
+      <JFXButton layoutX="678.0" layoutY="498.0" onAction="#backOnAction" prefHeight="40.0" prefWidth="92.0" style="-fx-background-color: #6FBEEB;" text="Back">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

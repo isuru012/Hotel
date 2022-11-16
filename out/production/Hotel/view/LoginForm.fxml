@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ancrTwo" prefHeight="524.0" prefWidth="753.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginFormController">
+   <children>
+      <ImageView fitHeight="551.0" fitWidth="785.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/Desktop1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="156.0" fitWidth="416.0" layoutX="193.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/Blue Ocean (1).png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="478.0" layoutY="345.0" onAction="#loginOnAction" prefHeight="51.0" prefWidth="140.0" style="-fx-background-color: #6FBEEB;" text="Login">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </JFXButton>
+      <TextField fx:id="txtUsername" alignment="CENTER" layoutX="313.0" layoutY="230.0" prefHeight="32.0" prefWidth="305.0" promptText="Enter Username" />
+      <TextField fx:id="txtPassword" alignment="CENTER" layoutX="313.0" layoutY="284.0" onAction="#loginOnAction" prefHeight="32.0" prefWidth="305.0" promptText="Enter Password" />
+      <JFXButton layoutX="120.0" layoutY="230.0" prefHeight="32.0" prefWidth="134.0" style="-fx-background-color: #000000;" text="Username" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="120.0" layoutY="284.0" prefHeight="32.0" prefWidth="134.0" style="-fx-background-color: #000000;" text="Password" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="669.0" layoutY="497.0" onAction="#backOnAction" prefHeight="40.0" prefWidth="92.0" style="-fx-background-color: #6FBEEB;" text="Back">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ancrFourteen" prefHeight="524.0" prefWidth="753.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MealSelectController">
+   <children>
+      <ImageView fitHeight="551.0" fitWidth="785.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/Desktop6.png" />
+         </image></ImageView>
+      <TextField alignment="CENTER" editable="false" layoutX="189.0" layoutY="258.0" prefHeight="35.0" prefWidth="110.0" style="-fx-text-fill: #FFFFFF; -fx-background-color: #000000;" text="Room Id">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+
+      <JFXButton fx:id="btnHome" layoutX="8.0" layoutY="8.0" onAction="#homeOnAction" prefHeight="40.0" prefWidth="60.0">
+         <graphic>
+            <ImageView fitHeight="39.0" fitWidth="52.0">
+               <Image url="@../assests/Group 58.png" />
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="678.0" layoutY="498.0" onAction="#backOnAction" prefHeight="40.0" prefWidth="92.0" style="-fx-background-color: #6FBEEB;" text="Back">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="165.0" fitWidth="521.0" layoutX="174.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/Blue.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="350.0" layoutY="258.0" prefHeight="35.0" prefWidth="207.0" />
+      <TextField alignment="CENTER" editable="false" layoutX="189.0" layoutY="311.0" prefHeight="35.0" prefWidth="110.0" style="-fx-text-fill: #FFFFFF; -fx-background-color: #000000;" text="Meal Plan">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <JFXComboBox layoutX="350.0" layoutY="311.0" prefHeight="35.0" prefWidth="207.0" style="-fx-background-color: #FFFFFF;" />
+   </children>
+</AnchorPane>
